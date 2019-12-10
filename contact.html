@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <title>Lilliputto</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/"><img src="Images/lilliputto.png" class="logo"></a>
+        <ul class="nav">
+            <li class="navItem"><a href="index.html">Etusivu</a></li>
+            <li class="navItem"><a href="content.html">Tuotteemme</a></li>
+            <li class="navItem"><a href="about.html">Meistä</a></li>
+            <li class="navItem"><a href="contact.html">Ota yhteyttä</a></li>
+        </ul>
+    </header>
+    <div>
+        <img src="Images/lilliputto_banner3.png" alt="Photo of beer bottles with Lilliputto logo" class="banner">
+    </div>
+    <section class="formContainer">
+        <div class="formItems">
+            <h3>Ota yhteyttä:</h3>
+            <form action="/">
+                <label for="fname">Etunimi</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Etunimi"><br>
+                <label for="lname">Sukunimi</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Sukunimi"><br>
+                <label for="email">Sähköpostiosoitteesi</label><br>
+                <input type="email" id="email" name="email" placeholder="Sähköpostiosoite"><br>
+                <label for="subject">Viestisi</label><br>
+                <textarea name="subject" placeholder="Kirjoita viestisi"></textarea><br>
+                <label for="fname">Haluatko tilata uutiskirjeemme?</label><br>
+                <input type="radio" name="newsletter" value="yes"> Kyllä
+                <input type="radio" name="newsletter" value="no"> En<br>
+                <input type="submit" id="submit" value="Lähetä">
+        </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Hanna Jurvelin<p>
+    </footer>
+</body>
+
+</html>
