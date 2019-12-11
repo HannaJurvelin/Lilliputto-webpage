@@ -1,6 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-color: #f4f4f4;
+    color: #382514;
 }
 
 p {
@@ -16,7 +18,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 6px;
-    background-color: black;
+    background-color: #f46a40;
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,15 +44,15 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: #382514;
 }
 
 a.active {
-    color: blue;
+    color: #ffdd88;
 }
 
 .navItem a:hover:not(.active) {
-    color: #555;
+    color: #c93c1b;
 }
 
 .slideshow-container {
@@ -92,14 +94,14 @@ a.active {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #d3d3d3;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .dot.active, .dot:hover {
-    background-color: #717171;
+    background-color: #f46a40;
   }
   
   .fade {
@@ -224,8 +226,8 @@ label {
 }
 
 #submit {
-    background-color: darkgrey;
-    color: white;
+    background-color: #f46a40;
+    color: #ffdd88;
     padding: 12px;
     width: 100px;
     border: none;
@@ -237,12 +239,12 @@ label {
 }
 
 #submit:hover {
-    background-color: black;
+    background-color: #c93c1b;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color:#382514;
+    color: #f46a40;
 }
